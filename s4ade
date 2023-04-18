@@ -1,0 +1,4 @@
+High availability
+all workload have well defined liveness and readiness probe
+all workload requiring PV are defined by statefulsets
+we need a PDB so when we cannot delete a pod
